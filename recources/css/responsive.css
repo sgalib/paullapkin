@@ -1,0 +1,84 @@
+@media screen and (max-width:1200px){
+   
+.container{
+    width: 90%;
+}
+#work .boxes{
+    flex-wrap: wrap;
+}
+#work .box{
+   
+    flex: 1 1 25rem;
+    height: 20rem;
+
+}
+#latest .b-box.one{
+    flex-basis: 25rem;
+}
+}
+@media screen and (max-width:1080px){
+   
+    #experience .row{
+        flex-wrap: wrap;
+    }
+ #experience .col-2{
+     width: 100%;
+     flex: 1 0 100%;
+     margin: 1.5rem;
+ }
+}
+@media screen and (max-width:768px){
+    html{
+        font-size: 55%;
+    }
+    body{
+        font-size: 13px;
+    }
+    #about .row{
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+        align-items: center;
+        justify-content: center;
+    }
+    #about .col-2:nth-child(1),
+    #about .col-2:nth-child(2){
+        flex-basis: 100%;
+     }
+     #about .col-2:nth-child(1) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     }
+     #about .col-2:nth-child(1) img{
+         width: 65%;
+         margin-bottom: 4rem;
+     }
+
+     #sign .row{
+         width: 100%;
+     }
+
+     #contact .row{
+        flex-wrap: wrap;
+    }
+ #contact .col-2{
+     width: 100%;
+     flex: 1 0 100%;
+     margin: 1.5rem;
+ }
+
+}
+@media screen and (max-width:510px){
+    html{
+        font-size: 45%;
+    }
+    
+h1{
+    font-size: 4rem;
+    text-align: center;
+}
+.h-d{
+    font-size: 12px;
+    text-align: center;
+}
+}
